@@ -285,7 +285,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .top {
     height: 35px;
     width: 100%;

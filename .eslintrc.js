@@ -1,8 +1,11 @@
 module.exports = {
     root: true,
     env: {
-        node: true
+        node: true,
+        browser: true,
+        es6: true
     },
+    parser: "vue-eslint-parser",
     extends: [
         'plugin:vue/essential',
         '@vue/standard'
@@ -17,5 +20,9 @@ module.exports = {
         "indent": ["off", 2],
         "no-tabs": "off",
         "space-before-function-paren": 0,
-    }
+        "no-unused-vars": 'off' 
+    },
+    // Plugin:[
+    //     'html',
+    //     "transform-object-rest-spread"]
 }
